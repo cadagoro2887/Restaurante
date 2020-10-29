@@ -1,0 +1,110 @@
+//--------------- 800 PX-----------------//
+
+@media screen and(max-width:800px){
+    header{
+        .contenedor{
+            position: static;
+            height: auto;
+            .menu{
+                text-align: center;
+                a{
+                    margin: 10px 20px;
+                }
+            }
+            .textos{
+                position: static;
+                margin:100px 0 ;
+                .nombre{
+                    font-size: 30px;
+                }
+                h3{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .main{
+        .acerca-de{
+            .contenedor{
+                .foto{
+                    width: 100%;
+                    position: relative;
+                }
+                article{
+                    position: relative;
+                    width: 100%;
+                    top: -50px;
+                    transform: translate(0px, 0);
+                }
+            }     
+        }  
+        .menu{
+            padding-top: 300px;
+            .contenedor-menu{
+                article{
+                    width: 100%;
+                }
+            }
+        }
+        .galeria{
+            .foto{
+                width: 50%;
+            }
+        }
+        .mapa{
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+//--------------- 400 PX-----------------//
+@media screen and (max-width:400px){
+    header{
+        .contenedor{
+            .menu{
+                a{
+                    margin: 10px 8px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .main{
+        .acerca-de{
+            .contenedor{
+                article h3{
+                    font-size: 34px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .menu{
+            .contenedor-menu .contenedor-menu2{
+                article{
+                    .nombre, .precio{
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+                }
+            }
+        }
+        .ubicacion{
+            .direccion{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 15px;
+                h4{
+                    margin-bottom: 10px;
+                }
+            }
+            .horarios{
+                width: 100%;
+                text-align: center;
+                h4{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

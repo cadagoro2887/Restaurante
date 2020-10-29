@@ -1,0 +1,48 @@
+.main .menu {
+  padding-top: 570px;
+  margin-bottom: 50px;
+}
+.main .menu .titulo {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main .menu .contenedor-menu, .main .menu .contenedor-menu2 {
+  border: 1px solid #000;
+  background: transparent;
+  padding: 10px;
+  overflow: hidden;
+}
+.main .menu .contenedor-menu article, .main .menu .contenedor-menu2 article {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+.main .menu .contenedor-menu article .categoria, .main .menu .contenedor-menu2 article .categoria {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.main .menu .contenedor-menu article .plato, .main .menu .contenedor-menu2 article .plato {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 4px dotted #000;
+  overflow: hidden;
+}
+.main .menu .contenedor-menu article .plato .nombre, .main .menu .contenedor-menu2 article .plato .nombre {
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: left;
+}
+.main .menu .contenedor-menu article .plato .precio, .main .menu .contenedor-menu2 article .plato .precio {
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: right;
+}
+.main .menu .contenedor-menu article .plato .descripcion, .main .menu .contenedor-menu2 article .plato .descripcion {
+  font-size: 16px;
+  color: #676767;
+  clear: both;
+}
